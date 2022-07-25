@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="./login-assets/login.css">
+</head>
+<body>
+    <main>
+        <div class="logo-container">
+            <a href="#">
+                <img src="../img/Logo Hospital.png" alt="logo hospital">
+            </a>
+            
+        </div>
+
+        <div class="titulo">
+            <h1>Portal Plan Médico</h1>
+        </div>
+
+
+        <div class="container">
+            <div class="img-container"></div>
+
+            <div class="login-container">
+                <h3>Iniciar Sesión</h3>
+                
+                <form>
+                    <div class="label-container">
+                        <label for="documento">Número de documento</label>
+                        <input type="tel" id="documento" placeholder="Ingrese su número de documento">
+
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" id="contraseña" placeholder="Ingrese su contraseña">
+
+                        <button class="form-button" type="submit">Ingresar</button>
+                    </div>
+                    
+
+                    <div class="text-form">
+                        <label for="remember-me">
+                            <input type="checkbox" id="remember-me" class="checkbox">Recordar mi documento
+                        </label>
+                        
+                        
+                        <a href="#">Olvidé mi contraseña</a>
+                    </div>
+
+                    <div class="container-interno">
+                        <p>¿Aún no generaste tu usuario?</p>
+                        <button class="register-btn"> <a href="../signup/signup.html">Quiero ser socio</a> </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
